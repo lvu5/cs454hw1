@@ -1,0 +1,28 @@
+
+Q2.
+Exercise 1.7. You are given a program that includes a method M that 
+executes squentially. Use Amdahl’s law to resolve the following questions.
+• Suppose M accounts for 30% of the program’s execution time. 
+What is the limit for the overall speedup that can be achieved on an n-processor
+machine?
+• Suppose M accounts for 40% of the program’s execution time. 
+You hire a pro- grammer to replace M with M′, which has a k-fold speedup over M.
+What value of k yields an overall speedup of 2 for the whole program?
+• Suppose M′ , the parallel replacement for M , has a four-fold speedup. 
+What frac- tion of the overall execution time must M account for if replacing it with 
+M′ doubles the program’s speedup?
+You may assume that the program, when executed sequentially, takes unit time.
+Q3.
+Exercise 2.1. A mutual exclusion algorithm provides r-bounded waitingif there is
+a way to define a doorway such that if Dj → Dk, then CSj → CSk+r. Does the ABAB
+Peterson algorithm provide r-bounded waiting for some value of r?
+Q4.
+Programmers at the Flaky Computer Corporation designed the protocol shown in Fig. 2.16
+to achieve n-thread mutual exclusion.
+For each question, either sketch a proof, or display an execution where it fails.
+• Does this protocol satisfy mutual exclusion?
+• Is this protocol starvation-free?
+• Is this protocol deadlock-free?
+• Is this protocol livelock-free?
+Q5.
+Explain why quiescent consistency is compositional.
